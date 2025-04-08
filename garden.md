@@ -31,7 +31,7 @@ graph TB
         Row3 --- Row4
     end
 
-    classDef default fill:#fff,stroke:#333,stroke-width:2px;
+    classDef default fill:#1b4d3e,stroke:#333,stroke-width:4px,font-size:28px,font-weight:bold;
     classDef cell text-align:center,width:150px,height:150px;
     classDef header fill:#f9f9f9,stroke:#666;
     class A1,B1,C1,D1,E1,F1,G1,H1,A2,B2,C2,D2,E2,F2,G2,H2,A3,B3,C3,D3,E3,F3,G3,H3,A4,B4,C4,D4,E4,F4,G4,H4 cell;
