@@ -6,22 +6,22 @@ graph TB
                 
         subgraph Row1[Row 1 - North]
             direction LR
-            R1[1] --- A1["Garlic"] --- B1["carrots"] --- C1["<br>bunching<br>onions"] --- D1["x"] --- E1["x"] --- F1["x"] --- G1["Tomato"] --- H1["x"]
+            R1[1] --- A1["Garlic"] --- B1["carrots"] --- C1["bunching onions"] --- D1["x"] --- E1["x"] --- F1["x"] --- G1["Tomato"] --- H1["x"]
         end
         
         subgraph Row2[Row 2]
             direction LR
-            R2[2] --- A2["Empty"] --- B2["Empty"] --- C2["Chives"] --- D2["Empty"] --- E2["Marigolds"] --- F2["bunching<br>onions"] --- G2["Empty"] --- H2["Empty"]
+            R2[2] --- A2["x"] --- B2["x"] --- C2["Chives"] --- D2["x"] --- E2["Marigolds"] --- F2["bunching<br>onions"] --- G2["x"] --- H2["x"]
         end
         
         subgraph Row3[Row 3]
             direction LR
-            R3[3] --- A3["Strawberry"] --- B3["Strawberry"] --- C3["Empty"] --- D3["Empty"] --- E3["Leek"] --- F3["Marigolds"] --- G3["Empty"] --- H3["Empty"]
+            R3[3] --- A3["Strawberry"] --- B3["Strawberry"] --- C3["x"] --- D3["x"] --- E3["Leek"] --- F3["Marigolds"] --- G3["x"] --- H3["x"]
         end
         
         subgraph Row4[Row 4 - South]
             direction LR
-            R4[4] --- A4["Empty"] --- B4["Empty"] --- C4["Empty"] --- D4["Empty"] --- E4["Empty"] --- F4["Empty"] --- G4["Empty"] --- H4["Empty"]
+            R4[4] --- A4["x"] --- B4["x"] --- C4["x"] --- D4["x"] --- E4["x"] --- F4["x"] --- G4["x"] --- H4["x"]
         end
         
         %% Connect rows vertically
