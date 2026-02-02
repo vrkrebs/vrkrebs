@@ -6,7 +6,7 @@ graph TB
                 
         subgraph Row1[Row 1 - North]
             direction LR
-            R1[1] --- A1["Garlic"] --- B1["carrots"] --- C1["bunching onions"] --- D1["x"] --- E1["x"] --- F1["x"] --- G1["Tomato"] --- H1["x"]
+            R1[1] --- A1["Garlic"] --- B1["carrots"] --- C1["bunching onions"] --- D1["x"] --- E1["x"] --- F1["x"] --- G1["x"] --- H1["x"]
         end
         
         subgraph Row2[Row 2]
