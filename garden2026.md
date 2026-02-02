@@ -4,9 +4,9 @@ graph TB
     subgraph Garden[Garden Grid]
         direction TB
                 
-        subgraph Row1[Row 1]
+        subgraph Row1[Row 1 - North]
             direction LR
-            R1[1] --- A1["Garlic"] --- B1["carrots"] --- C1["bunching<br>onions"] --- D1["Empty"] --- E1["Empty"] --- F1["Empty"] --- G1["Tomato"] --- H1["Empty"]
+            R1[1] --- A1["Garlic"] --- B1["carrots"] --- C1["<br>bunching<br>onions"] --- D1["x"] --- E1["x"] --- F1["x"] --- G1["Tomato"] --- H1["x"]
         end
         
         subgraph Row2[Row 2]
@@ -19,7 +19,7 @@ graph TB
             R3[3] --- A3["Strawberry"] --- B3["Strawberry"] --- C3["Empty"] --- D3["Empty"] --- E3["Leek"] --- F3["Marigolds"] --- G3["Empty"] --- H3["Empty"]
         end
         
-        subgraph Row4[Row 4]
+        subgraph Row4[Row 4 - South]
             direction LR
             R4[4] --- A4["Empty"] --- B4["Empty"] --- C4["Empty"] --- D4["Empty"] --- E4["Empty"] --- F4["Empty"] --- G4["Empty"] --- H4["Empty"]
         end
